@@ -8,5 +8,5 @@ function Btn({msg}){
 }
 const root = create(document.getElementById('root'));
 const another = create(document.getElementById('another-root'));
-root.render(summon(Btn, {msg: "thanks"}));
-another.render(summon(Btn, {msg: "I said Thanks"}));
+root.render(summon(Btn, {msg: "many thanks"}));
+another.render(summon(Btn, {msg: "I said Thanks!!!!"}));
